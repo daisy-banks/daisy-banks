@@ -1,16 +1,38 @@
-## Hi there 👋
+# Daisy Banks
 
-<!--
-**daisy-banks/daisy-banks** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Senior Backend Engineer — Solana Trading Infrastructure**
 
-Here are some ideas to get you started:
+I design and operate low-latency execution systems, real-time market monitoring pipelines, and scalable backend services for on-chain trading environments.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 🚀 Live Systems
+
+- Telegram Bot → https://t.me/Saturnsolbot  
+- Web App → https://saturnsolbot-web.up.railway.app  
+
+---
+
+## 🧠 What I Build
+
+- **Execution Engines**  
+  Transaction construction, RPC routing, retry logic, and failover strategies optimized for Solana
+
+- **Trading Infrastructure**  
+  Sniper bots, automated execution systems, and multi-user trading platforms
+
+- **Market Monitoring Systems**  
+  Real-time token tracking using aggregator APIs with batched refresh pipelines
+
+- **Backend Systems**  
+  Node.js / TypeScript services designed for concurrency, resilience, and low latency
+
+- **Data Layer**  
+  MongoDB for persistent state  
+  Redis for caching, queues, and high-speed data access
+
+---
+
+## ⚙️ Architecture Focus
+
+I approach systems as distributed pipelines:
