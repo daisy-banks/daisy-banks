@@ -1,46 +1,68 @@
-<svg width="900" height="420" viewBox="0 0 900 420" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+<svg width="920" height="460" viewBox="0 0 920 460" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
 
   <!-- Background -->
   <rect width="100%" height="100%" fill="#0d1117"/>
 
-  <!-- Boxes -->
-  <rect x="40" y="160" width="120" height="60" rx="8" fill="#161b22" stroke="#30363d"/>
-  <text x="100" y="195" fill="#c9d1d9" font-size="12" text-anchor="middle">User</text>
+  <!-- ===== LAYER LABELS ===== -->
+  <text x="80" y="40" fill="#8b949e" font-size="11">Client Layer</text>
+  <text x="260" y="40" fill="#8b949e" font-size="11">Interface</text>
+  <text x="430" y="40" fill="#8b949e" font-size="11">Backend</text>
+  <text x="610" y="40" fill="#8b949e" font-size="11">Core Systems</text>
+  <text x="800" y="40" fill="#8b949e" font-size="11">External</text>
 
-  <rect x="200" y="140" width="150" height="60" rx="8" fill="#161b22" stroke="#30363d"/>
-  <text x="275" y="175" fill="#c9d1d9" font-size="12" text-anchor="middle">Telegram / Web</text>
+  <!-- ===== MAIN FLOW (TOP ROW) ===== -->
 
-  <rect x="400" y="140" width="150" height="60" rx="8" fill="#161b22" stroke="#30363d"/>
-  <text x="475" y="175" fill="#c9d1d9" font-size="12" text-anchor="middle">Backend API</text>
+  <!-- User -->
+  <rect x="40" y="180" width="120" height="60" rx="10" fill="#161b22" stroke="#30363d"/>
+  <text x="100" y="215" fill="#c9d1d9" font-size="13" text-anchor="middle">User</text>
 
-  <rect x="600" y="120" width="160" height="60" rx="8" fill="#161b22" stroke="#30363d"/>
-  <text x="680" y="155" fill="#c9d1d9" font-size="12" text-anchor="middle">Execution Engine</text>
+  <!-- Interface -->
+  <rect x="200" y="180" width="150" height="60" rx="10" fill="#161b22" stroke="#30363d"/>
+  <text x="275" y="215" fill="#c9d1d9" font-size="13" text-anchor="middle">Telegram / Web</text>
 
-  <rect x="600" y="220" width="160" height="60" rx="8" fill="#161b22" stroke="#30363d"/>
-  <text x="680" y="255" fill="#c9d1d9" font-size="12" text-anchor="middle">Monitoring System</text>
+  <!-- Backend -->
+  <rect x="380" y="180" width="150" height="60" rx="10" fill="#161b22" stroke="#30363d"/>
+  <text x="455" y="215" fill="#c9d1d9" font-size="13" text-anchor="middle">Backend API</text>
 
-  <rect x="780" y="100" width="100" height="60" rx="8" fill="#161b22" stroke="#30363d"/>
-  <text x="830" y="135" fill="#c9d1d9" font-size="12" text-anchor="middle">Solana RPC</text>
+  <!-- Execution Engine -->
+  <rect x="560" y="120" width="170" height="60" rx="10" fill="#161b22" stroke="#30363d"/>
+  <text x="645" y="155" fill="#c9d1d9" font-size="13" text-anchor="middle">Execution Engine</text>
 
-  <rect x="780" y="200" width="100" height="60" rx="8" fill="#161b22" stroke="#30363d"/>
-  <text x="830" y="235" fill="#c9d1d9" font-size="12" text-anchor="middle">Jupiter</text>
+  <!-- Monitoring -->
+  <rect x="560" y="260" width="170" height="60" rx="10" fill="#161b22" stroke="#30363d"/>
+  <text x="645" y="295" fill="#c9d1d9" font-size="13" text-anchor="middle">Monitoring System</text>
 
-  <rect x="400" y="260" width="120" height="60" rx="8" fill="#161b22" stroke="#30363d"/>
-  <text x="460" y="295" fill="#c9d1d9" font-size="12" text-anchor="middle">Redis</text>
+  <!-- External -->
+  <rect x="770" y="120" width="120" height="60" rx="10" fill="#161b22" stroke="#30363d"/>
+  <text x="830" y="155" fill="#c9d1d9" font-size="12" text-anchor="middle">Solana RPC</text>
 
-  <rect x="560" y="300" width="120" height="60" rx="8" fill="#161b22" stroke="#30363d"/>
-  <text x="620" y="335" fill="#c9d1d9" font-size="12" text-anchor="middle">MongoDB</text>
+  <rect x="770" y="260" width="120" height="60" rx="10" fill="#161b22" stroke="#30363d"/>
+  <text x="830" y="295" fill="#c9d1d9" font-size="12" text-anchor="middle">Jupiter</text>
 
-  <!-- Arrows -->
-  <line x1="160" y1="190" x2="200" y2="170" stroke="#8b949e" stroke-width="1.5"/>
-  <line x1="350" y1="170" x2="400" y2="170" stroke="#8b949e" stroke-width="1.5"/>
-  <line x1="550" y1="170" x2="600" y2="150" stroke="#8b949e" stroke-width="1.5"/>
-  <line x1="550" y1="170" x2="600" y2="250" stroke="#8b949e" stroke-width="1.5"/>
+  <!-- ===== DATA LAYER (BOTTOM CENTERED) ===== -->
 
-  <line x1="760" y1="140" x2="780" y2="130" stroke="#8b949e" stroke-width="1.5"/>
-  <line x1="760" y1="250" x2="780" y2="230" stroke="#8b949e" stroke-width="1.5"/>
+  <rect x="380" y="340" width="140" height="55" rx="10" fill="#161b22" stroke="#30363d"/>
+  <text x="450" y="372" fill="#c9d1d9" font-size="12" text-anchor="middle">Redis</text>
 
-  <line x1="475" y1="200" x2="460" y2="260" stroke="#8b949e" stroke-width="1.5"/>
-  <line x1="600" y1="300" x2="520" y2="290" stroke="#8b949e" stroke-width="1.5"/>
+  <rect x="550" y="340" width="140" height="55" rx="10" fill="#161b22" stroke="#30363d"/>
+  <text x="620" y="372" fill="#c9d1d9" font-size="12" text-anchor="middle">MongoDB</text>
+
+  <!-- ===== ARROWS (STRAIGHT + CLEAN) ===== -->
+
+  <!-- Main flow -->
+  <line x1="160" y1="210" x2="200" y2="210" stroke="#8b949e" stroke-width="1.5"/>
+  <line x1="350" y1="210" x2="380" y2="210" stroke="#8b949e" stroke-width="1.5"/>
+
+  <!-- Backend to systems -->
+  <line x1="530" y1="210" x2="560" y2="150" stroke="#8b949e" stroke-width="1.5"/>
+  <line x1="530" y1="210" x2="560" y2="290" stroke="#8b949e" stroke-width="1.5"/>
+
+  <!-- Systems to external -->
+  <line x1="730" y1="150" x2="770" y2="150" stroke="#8b949e" stroke-width="1.5"/>
+  <line x1="730" y1="290" x2="770" y2="290" stroke="#8b949e" stroke-width="1.5"/>
+
+  <!-- Data layer connections -->
+  <line x1="455" y1="240" x2="450" y2="340" stroke="#8b949e" stroke-width="1.5"/>
+  <line x1="620" y1="320" x2="620" y2="340" stroke="#8b949e" stroke-width="1.5"/>
 
 </svg>
