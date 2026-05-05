@@ -8,12 +8,24 @@ I design and operate low-latency execution systems, real-time market monitoring 
 
 ## ⚙️ Tech Stack
 
-![Node.js](https://img.shields.io/badge/Node.js-Backend-339933?logo=node.js&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-Language-3178C6?logo=typescript&logoColor=white)
-![Solana](https://img.shields.io/badge/Solana-Web3-14F195?logo=solana&logoColor=black)
-![Redis](https://img.shields.io/badge/Redis-Cache-DC382D?logo=redis&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-Database-47A248?logo=mongodb&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-Infra-2496ED?logo=docker&logoColor=white)
+**Backend & Language**  
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="26"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="26"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="26"/>
+</p>
+
+**Blockchain**  
+<p>
+  <img src="https://cryptologos.cc/logos/solana-sol-logo.svg?v=026" height="26"/>
+</p>
+
+**Data & Infrastructure**  
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="26"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" height="26"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="26"/>
+</p>
 
 ---
 
@@ -45,3 +57,6 @@ I design and operate low-latency execution systems, real-time market monitoring 
 ---
 
 ## ⚙️ Architecture Focus
+## 🧠 System Architecture
+
+![Architecture](./assets/architecture.svg)
